@@ -1,0 +1,69 @@
+header { background-color: rgb(189, 175, 175);
+
+}
+main {
+    height: 500px;
+    width: 1249px;
+    background-color: gray;
+    margin: 0;
+    text-decoration-color: azure;
+    
+}
+.projet{
+    height: 200px;
+    width: 85%;
+    background-color: aquamarine;
+    border-radius: 2%;
+
+}
+.drap{
+    height: 200px;
+    width: 85%;
+    background-color: rgb(183, 97, 97);
+    border-radius: 2%;
+}
+.naru{
+    height: 200px;
+    width: 85%;
+    background-color: rgb(185, 157, 211);
+    border-radius: 2%;
+}
+nav ul{ display: flex;
+        gap: 100px;
+        list-style-type: none;
+        justify-content: center;
+      }
+nav{
+    display: flex;
+    background-color: rgb(134, 122, 122)
+}
+main ul{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+main{
+    
+}
+h1{
+margin:0;
+
+}
+main ul{
+    list-style-type:none;
+}
+main h1 { text-transform: uppercase;
+          
+    }
+
+    
+.projet p { display: flex;
+            justify-content: flex-end;
+}
+body{
+    margin: 0;
+}
+nav{
+    height: 100px;
+    width: 1300px;
+}
