@@ -1,10 +1,11 @@
-header { background-color: rgb(189, 175, 175);
-
+header { 
+    background-color: rgb(165, 151, 151);
 }
+
 main {
-    height: 500px;
-    width: 1249px;
-    background-color: gray;
+    height: 400px;
+    width: 1265px;
+    background-color: rgb(143, 135, 135);
     margin: 0;
     text-decoration-color: azure;
     
@@ -12,20 +13,21 @@ main {
 .projet{
     height: 200px;
     width: 85%;
-    background-color: aquamarine;
+    background-color: beige;
     border-radius: 2%;
 
 }
 .drap{
     height: 200px;
     width: 85%;
-    background-color: rgb(183, 97, 97);
+    background-color: beige;
     border-radius: 2%;
 }
+
 .naru{
     height: 200px;
     width: 85%;
-    background-color: rgb(185, 157, 211);
+    background-color: beige;
     border-radius: 2%;
 }
 nav ul{ display: flex;
@@ -35,15 +37,12 @@ nav ul{ display: flex;
       }
 nav{
     display: flex;
-    background-color: rgb(134, 122, 122)
+    background-color: rgb(189, 175, 175);
 }
 main ul{
     display: flex;
     gap: 5px;
     justify-content: center;
-}
-main{
-    
 }
 h1{
 margin:0;
@@ -52,7 +51,7 @@ margin:0;
 main ul{
     list-style-type:none;
 }
-main h1 { text-transform: uppercase;
+main h1 { text-transform: none;
           
     }
 
@@ -65,5 +64,43 @@ body{
 }
 nav{
     height: 100px;
-    width: 1300px;
+    width: 1265px;
+    }
+nav ul{
+    text-transform: inherit;
+}
+nav h3{
+    color: aliceblue;
+}
+main h1{ color: aliceblue;}
+header h1{ 
+    color: aliceblue;
+}
+header p{
+    color: black;
+    ;
+}
+footer{
+    height: 165px;
+width: 1265px;
+background-color: rgb(107, 99, 99);
+}
+footer h1{
+    color: aliceblue;
+}
+footer p{
+display: flex;
+justify-content: flex-end;
+color: aliceblue;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header p{
+    display: flex;
+    align-items: center;
+}
+main .naru{
+margin-right: 40px;
 }
